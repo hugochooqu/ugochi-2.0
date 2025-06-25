@@ -113,63 +113,77 @@ const App = () => {
                 <Accordion>
                   <AccordionItem value="one">
                     <AccordionTrigger value="one">
-                      What is your name?
+                      Velvet Pour
                     </AccordionTrigger>
                     <AccordionContent value="one">
+                      <a className="cursor-pointer" href="https://gsap-drink-psi.vercel.app" target="_blank" rel="noopener noreferrer">
                       <img
-                        src="/keep.jpg"
+                        src="/mojito.png"
                         alt="keep"
                         className="w-full h-full object-cover  overflow-hidden rounded-3xl"
                       />
+                      </a>
                     </AccordionContent>
                   </AccordionItem>
 
                   <AccordionItem value="two">
                     <AccordionTrigger value="two">
-                      What do you do?
+                      PrepWise
                     </AccordionTrigger>
                     <AccordionContent value="two">
-                      <img
-                        src="/crowwn.jpg"
+                      <a className="cursor-pointer" href="https://interview-prep-five-indol.vercel.app" target="_blank" rel="noopener noreferrer">
+                        <img
+                        src="/prepwise.png"
                         alt="keep"
                         className="w-full h-full object-cover  overflow-hidden rounded-3xl"
                       />
+                      </a>
+                      
                     </AccordionContent>
                   </AccordionItem>
 
                   <AccordionItem value="three">
                     <AccordionTrigger value="three">
-                      Where are you based?
+                     Ore's restaurant
                     </AccordionTrigger>
                     <AccordionContent value="three">
-                      <img
-                        src="/coinz.jpg"
+                      <a className="cursor-pointer" href="https://food-recipe-app-inky.vercel.app/" target="_blank" rel="noopener noreferrer">
+                       <img
+                        src="/ore.png"
                         alt="keep"
                         className="w-full h-full object-cover  overflow-hidden rounded-3xl"
-                      />
+                      /> 
+                      </a>
+                      
                     </AccordionContent>
                   </AccordionItem>
 
                   <AccordionItem value="four">
                     <AccordionTrigger value="four">
-                      What is your name?
+                      Crown Shop
                     </AccordionTrigger>
                     <AccordionContent value="four">
-                      <img
-                        src="/keep.jpg"
+                      <a className="cursor-pointer" href="https://crownn-shop.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <img
+                        src="/crown.png"
                         alt="keep"
                         className="w-full h-full object-cover  overflow-hidden rounded-3xl"
                       />
+                      </a>
+                      
                     </AccordionContent>
                   </AccordionItem>
 
                   <AccordionItem value="five">
                     <AccordionTrigger value="five">
-                      What do you do?
+                      Coinz
                     </AccordionTrigger>
                     <AccordionContent value="five">
+                      <a className="cursor-pointer" href="https://coinz-kappa.vercel.app/" target="_blank" rel="noopener noreferrer">
+
+                      </a>
                       <img
-                        src="/crowwn.jpg"
+                        src="/coinz.png"
                         alt="keep"
                         className="w-full h-full object-cover  overflow-hidden rounded-3xl"
                       />
@@ -178,14 +192,33 @@ const App = () => {
 
                   <AccordionItem value="six">
                     <AccordionTrigger value="six">
-                      Where are you based?
+                      Store It
                     </AccordionTrigger>
                     <AccordionContent value="six">
-                      <img
-                        src="/coinz.jpg"
+                      <a className="cursor-pointer" href="https://keep-lemon-two.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <img
+                        src="/storeit.png"
                         alt="keep"
                         className="w-full h-full object-cover  overflow-hidden rounded-3xl"
                       />
+                      </a>
+                      
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="seven">
+                    <AccordionTrigger value="seven">
+                      Board games
+                    </AccordionTrigger>
+                    <AccordionContent value="seven">
+                      <a className="cursor-pointer" href="https://board-games-snowy.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <img
+                        src="/boardgames.png"
+                        alt="keep"
+                        className="w-full h-full object-cover  overflow-hidden rounded-3xl"
+                      />
+                      </a>
+                      
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
@@ -200,9 +233,11 @@ const App = () => {
                 </p>
               </div>
               <div className=" bg-[#6F6134] h-[8vh] rounded-3xl flex flex-row justify-evenly items-center text-[#E1C68F] text-lg">
-                <p>Github</p>
-                <p>Instagram</p>
-                <p>Twitter</p>
+                <a className='cursor-pointer' href="https://github.com/hugochooqu" target="_blank" rel="noopener noreferrer">Github</a>
+                <a className='cursor-pointer' href="https://instagram.com/the.ugochi" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a className='cursor-pointer' href="https://x.com/UgochiVictor" target="_blank" rel="noopener noreferrer">Twitter</a>
+
+                
               </div>
             </div>
           </div>
