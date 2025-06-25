@@ -88,7 +88,7 @@ const App = () => {
 
               <div className="flex flex-col lg:flex-row gap-4">
                 <div className="lg:w-1/2 bg-[#6F6134] h-[60vh] lg:h-[38vh] rounded-3xl flex flex-col justify-end">
-                  <p className="p-4 text-2xl lg:text-sm text-[#e7c47d] lg:mr-8">
+                  <p className="p-4 text-lg lg:text-sm text-[#e7c47d] lg:mr-8">
                     Ugochi is a passionate software developer, acclaimed for
                     creating and building pixel perfect websites with great
                     expertise and up-to-date skills. Based in Nigeria, he crafts
