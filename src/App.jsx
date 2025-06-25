@@ -58,8 +58,8 @@ const App = () => {
         </div>
       ) : (
         <div ref={mainContentRef} >
-          <div className="flex justify-between items-center mb-4 bg-[#6F6134] p-4 rounded-3xl h-[8vh] transition-opacity duration-700">
-            <div className=" text-2xl font-normal title text-[#e7c47d]">
+          <div className="flex items-center justify-center mb-4 bg-[#6F6134] p-4 rounded-3xl h-[8vh] transition-opacity duration-700">
+            <div className=" text-4xl tracking-wider font-normal title text-[#e7c47d] text-center">
               Ugochi
             </div>
           </div>
@@ -72,7 +72,7 @@ const App = () => {
                 <div
                   className={`lg:w-2/3 bg-[#6F6134] text-[#e7c47d] h-[45vh] rounded-3xl flex flex-col justify-end transition-opacity duration-700 `}
                 >
-                  <p className="p-4 text-2xl lg:text-4xl lg:mr-28 pb-6">
+                  <p className="p-4 text-4xl lg:text-4xl lg:mr-28 pb-6">
                     Let&apos;s create beautiful and responsive websites for you.{" "}
                     <i>You'd love it.</i>
                   </p>
