@@ -72,7 +72,7 @@ const App = () => {
                 <div
                   className={`lg:w-2/3 bg-[#6F6134] text-[#e7c47d] h-[45vh] rounded-3xl flex flex-col justify-end transition-opacity duration-700 `}
                 >
-                  <p className="p-4 text-4xl lg:text-4xl lg:mr-28 pb-6">
+                  <p className="p-4 text-2xl lg:text-4xl lg:mr-28 pb-6">
                     Let&apos;s create beautiful and responsive websites for you.{" "}
                     <i>You'd love it.</i>
                   </p>
