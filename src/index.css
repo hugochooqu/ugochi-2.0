@@ -7,9 +7,15 @@
     src: url("/fonts/Modern Negra Demo.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Grand Hotel";
+    src: url("/fonts/GrandHotel-Regular.otf") format("opentype");
+}
+
 @theme {
     --font-sans: "Mona Sans", sans-serif;
     --font-modern-negra: "Modern Negra", sans-serif;
+    --font-grand-hotel: "Grand Hotel", cursive;
     --font-serif: "DM Serif Text", serif;
 }
 
@@ -18,11 +24,11 @@
 } */
 @layer components {
 	.title{
-   @apply font-modern-negra 
+   @apply font-grand-hotel font-light; 
   }
     }
 
-    
+
 .scrollbar-hide {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none;  /* IE and Edge */
